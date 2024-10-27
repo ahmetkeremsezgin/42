@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int	ft_first_index(char const *s1, char const *set)
+static int	ft_first_index(char const *s1, char const *set)
 {
 	int	n;
 	int	i;
@@ -37,7 +37,7 @@ int	ft_first_index(char const *s1, char const *set)
 	return (n);
 }
 
-int	ft_last_index(char const *s1, char const *set)
+static int	ft_last_index(char const *s1, char const *set)
 {
 	int	n;
 	int	i;
